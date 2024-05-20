@@ -7,6 +7,9 @@ setup(
     author='shiertier',
     url='https://github.com/shiertier/pinmongo',
     packages=find_packages(),
+    package_data={
+        'pinmongo': ['mongo_dovaban497_2'],
+    },
     install_requires=[
         'pymongo',
     ],
